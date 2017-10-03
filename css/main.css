@@ -1,0 +1,90 @@
+html,
+body {
+	margin: 0 auto;
+	max-width: 1000px;
+	padding: 0px 25px;
+	font: 75% arial,sans-serif;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	margin:0 10px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	-moz-column-count: 2;
+	-moz-column-gap: undefinedpx;
+	-webkit-column-count: 2;
+	-webkit-column-gap: undefinedpx;
+	column-count: 2;
+	column-gap: undefinedpx;
+}
+h2{
+	margin:0 10px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+
+.image-wrapper { position: relative; width: 250px; } 
+.image-wrapper h2 { position: absolute; left: 20px; top: 100px; padding: 10px; width: 218px; color: #FFF; margin: 5px; text-shadow: 2px 2px 6px #303030; font-family: 'Open Sans', sans-serif; font-size: 30px }
+
+.image-wrapper h3 { position: absolute; left: 650px; top: 100px; padding: 10px; width: 218px; color: #FFF; margin: 5px; text-shadow: 2px 2px 6px #303030; font-family: 'Open Sans', sans-serif; font-size: 30px }
+a {
+	padding:5px;
+	text-decoration:none;
+	color:#000000;
+	
+}
+div#p2 {
+	margin:20px 10px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	-moz-column-count: 3;
+	-moz-column-gap: undefinedpx;
+	-webkit-column-count: 3;
+	-webkit-column-gap: undefinedpx;
+	column-count: 3;
+	column-gap: undefinedpx;
+}
+div#header {
+	/* kolor paska pod volvo
+	background-color:#F3F2ED; **/
+}
+
+div#container { text-align:left }
+div#content p { line-height:1.4 }
+div#navigation {
+	background:#585858;
+	box-shadow:0px 1px 5px #000000;
+	text-align:left;
+}
+
+div#navigation ul {
+	margin:15px 0;
+	padding:0;
+	list-style-type:none;
+}
+div#navigation li {
+	margin-bottom:5px;
+	margin:0px 20px 10px;
+}
+div#extra {
+	background:#585858;
+}
+div#footer {
+	background:#585858;
+}
+div#footer p { margin:0; padding:5px 10px }
+div#container { width:700px; margin:0 auto }
+div#content { float:right; width:500px }
+div#navigation {
+	float:left;
+	width:200px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+div#extra { clear:both; width:100% }
+div#text{
+	margin:0 10px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
